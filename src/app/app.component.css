@@ -1,0 +1,16 @@
+/*Applicatin-wide styles*/
+.navbar{
+  background-color: #AFA6A1;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  /*background: rgba(0, 0, 0, 0.3)!important;*/
+}
+.nav-brand{
+  color: white;
+  font-size: 40px;
+}
+.nav-brand img{
+  height: 4rem;
+  padding-right: 1.3rem;
+}
