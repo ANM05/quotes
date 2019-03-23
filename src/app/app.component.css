@@ -13,6 +13,7 @@
 .nav-brand img{
   height: 4rem;
   padding-right: 1.3rem;
+  border-radius: 50%;
 }
 .hrule{
   width: 100%;

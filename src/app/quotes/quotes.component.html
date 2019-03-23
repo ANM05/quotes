@@ -6,7 +6,9 @@
   <div class="col-10">
     <ul>
     <div *ngFor='let dispQuote of misemo'>
-   <li>{{dispQuote.quote}}</li>
+   <li><i class="fas fa-quote-left"></i>{{dispQuote.quote}}<i class="fas fa-quote-right" id="f-right"></i></li>
+   <app-quotes-details [dispQuote]='dispQuote'></app-quotes-details>
+   <hr class="quote-rule">
    </div>
   </ul>
   </div>

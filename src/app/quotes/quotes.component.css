@@ -1,6 +1,19 @@
 /*Quotes component styles*/
+/*Button styles*/
 .btn{
   width: 100%;
   border-radius: 0;
   margin: .5rem;
+}
+
+/*Font awesome icons styles*/
+.fas{
+  margin-right: .5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  color: #AFA6A1;
+}
+
+#f-right{
+  margin-left: 1rem;
 }
