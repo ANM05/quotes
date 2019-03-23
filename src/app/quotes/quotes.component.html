@@ -1,12 +1,13 @@
 <div class="row">
   <div class="col-2">
   <button type="button" class="btn btn-danger btn-lg">African</button><br>
-  <button type="button" class="btn btn-success btn-lg">Rasta</button>
+  <button type="button" class="btn btn-success btn-lg">Worldwide</button>
   </div>
   <div class="col-10">
-  <blockquote cite="http://">
-    <i class="fas fa-quote-left"></i>
-    Can't breath the air in a world polluted with ignorance.
-  </blockquote>
+    <ul>
+    <div *ngFor='let dispQuote of misemo'>
+   <li>{{dispQuote.quote}}</li>
+   </div>
+  </ul>
   </div>
-</div>
+  </div>
