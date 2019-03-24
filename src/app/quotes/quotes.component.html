@@ -1,9 +1,16 @@
 <div class="row">
-  <div class="col-2">
+  <div class="col-3">
   <button type="button" class="btn btn-danger btn-lg sidebtn">African</button><br>
-  <button type="button" class="btn btn-success btn-lg sidebtn">Worldwide</button>
+  <br>
+  <h4>Feeling inpired? Share something</h4>
+   <div class="container-fluid">
+     <div class="row">
+       <app-quotes-form></app-quotes-form>
+     </div>
+   </div>
+
   </div>
-  <div class="col-10">
+  <div class="col-9">
     <ul>
     <div *ngFor='let dispQuote of misemo; let i=index'>
    <li><i class="fas fa-quote-left"></i>{{dispQuote.quote}}<i class="fas fa-quote-right" id="f-right"></i></li>
