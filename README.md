@@ -1,7 +1,7 @@
-#Quotes Webpage
-####This is a webpage that contains inspiring quotes from around Africa.
-####By Antony Maina
-##Description
+# Quotes Webpage
+#### This is a webpage that contains inspiring quotes from around Africa.
+#### By Antony Maina
+## Description
 The webpage displays quotes providing the user with the option of liking or disliking a quote depending on how they find the quote. The user can also add or delete their own quotes.
 ## Setup/Installation Requirements
 This webpage is developed in angular therefore an angular development server is required in order to view it on a browser. Incase angular is not installed in your machine you can visit this(https://angular.io/guide/quickstart) link and follow the installation guide.
@@ -15,8 +15,8 @@ This webpage is developed in angular therefore an angular development server is 
 | Click           | Call a form submit function |                              |
 | click           | Call a delete function      |                              |
 
-##Known Bugs
-The page displays the date the quote was posted instead of days passed since the quote was posted.
+## Known Bugs
+The page displays the date the quote was posted instead of days passed since the quote was posted. Confirm delete returns true even when false
 ## Technologies Used
 The project is created using angular which implements the following languages:
 html
