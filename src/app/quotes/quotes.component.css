@@ -1,4 +1,9 @@
 /*Quotes component styles*/
+/*Column one styling*/
+.back{
+  background-color: #AFA6A1;
+  color: white;
+}
 /*Button styles*/
 .sidebtn{
   width: 100%;
