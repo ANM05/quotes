@@ -17,6 +17,7 @@
    <app-quotes-details [dispQuote]='dispQuote'></app-quotes-details>
    <button type="button" class="btn" (click)=upvotes(i)><i class="fas fa-thumbs-up"></i>: {{dispQuote.upvotes}}</button>
    <button type="button" class="btn" (click)=downvotes(i)><i class="fas fa-thumbs-down"></i>: {{dispQuote.downvotes}}</button>
+   <p>Submitted by: {{dispQuote.contName}}</p>
    <hr class="quote-rule">
    </div>
   </ul>
