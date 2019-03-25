@@ -1,27 +1,29 @@
-# Quotes
+#Quotes Webpage
+####This is a webpage that contains inspiring quotes from around Africa.
+####By Antony Maina
+##Description
+The webpage displays quotes providing the user with the option of liking or disliking a quote depending on how they find the quote. The user can also add or delete their own quotes.
+## Setup/Installation Requirements
+This webpage is developed in angular therefore an angular development server is required in order to view it on a browser. Incase angular is not installed in your machine you can visit this(https://angular.io/guide/quickstart) link and follow the installation guide.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+| Input           | Logic                       | Output                       |
+|-----------------|-----------------------------|------------------------------|
+| Quote           |                             | Quote                        |
+| Author of quote |                             | Author                       |
+| Submitted by    |                             | Submitted by                 |
+|                 |                             | Days passed since submitting |
+| Click           | Call a form submit function |                              |
+| click           | Call a delete function      |                              |
 
-## Development server
+##Known Bugs
+The page displays the date the quote was posted instead of days passed since the quote was posted.
+## Technologies Used
+The project is created using angular which implements the following languages:
+html
+css
+Javascript
+## Support and contact details
+Incase of any issues do not hesitate to contact: antonynganga05@gmail.com.
+Also feel free to contribute to the project if you have a great idea that you think can be added onto the page.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2019 By Antony Maina
