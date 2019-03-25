@@ -21,6 +21,14 @@ export class QuotesComponent implements OnInit {
   downvotes(i){
     this.misemo[i].downvotes+=1;
   }
+  addNewQuote(quotes){
+    let quotesLength = this.misemo.length;
+        quotes.id=quotesLength+1;
+        quotes.datePosted = new Date(quotes.datePosted)
+        this.misemo.push(quotes)
+
+  }
+
   constructor() { }
 
   ngOnInit() {

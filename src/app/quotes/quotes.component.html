@@ -5,7 +5,7 @@
   <h4>Feeling inpired? Share something</h4>
    <div class="container-fluid">
      <div class="row">
-       <app-quotes-form></app-quotes-form>
+       <app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
      </div>
    </div>
 
