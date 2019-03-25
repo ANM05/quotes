@@ -28,6 +28,14 @@ export class QuotesComponent implements OnInit {
         this.misemo.push(quotes)
 
   }
+  quoteDelete(isDelete,index){
+    if(isDelete){
+      let toDelete=confirm("Are you sure you want to delete this Quote")
+      if(isDelete){
+        this.misemo.splice(index,1);
+      }
+    }
+  }
 
   constructor() { }
 

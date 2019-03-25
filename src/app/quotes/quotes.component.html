@@ -14,7 +14,7 @@
     <ul>
     <div *ngFor='let dispQuote of misemo; let i=index'>
    <li><i class="fas fa-quote-left"></i>{{dispQuote.quote}}<i class="fas fa-quote-right" id="f-right"></i></li>
-   <app-quotes-details [dispQuote]='dispQuote'></app-quotes-details><br>
+   <app-quotes-details [dispQuote]='dispQuote' (isDelete)="quoteDelete($event,i)"></app-quotes-details>
    <button type="button" class="btn" (click)=upvotes(i)><i class="fas fa-thumbs-up"></i>: {{dispQuote.upvotes}}</button>
    <button type="button" class="btn" (click)=downvotes(i)><i class="fas fa-thumbs-down"></i>: {{dispQuote.downvotes}}</button>
    <p>Submitted by: {{dispQuote.contName}}</p>
