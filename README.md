@@ -6,16 +6,6 @@ The webpage displays quotes providing the user with the option of liking or disl
 ## Setup/Installation Requirements
 This webpage is developed in angular therefore an angular development server is required in order to view it on a browser. Incase angular is not installed in your machine you can visit this(https://angular.io/guide/quickstart) link and follow the installation guide.
 
-| Input           | Logic                       | Output                       |
-|-----------------|-----------------------------|------------------------------|
-| Quote           |                             | Quote                        |
-| Author of quote |                             | Author                       |
-| Submitted by    |                             | Submitted by                 |
-|                 |                             | Days passed since submitting |
-| Click           | Call a form submit function |                              |
-| click           | Call a delete function      |                              |
-
-## Known Bugs
 The page displays the date the quote was posted instead of days passed since the quote was posted. Confirm delete returns true even when false
 ## Technologies Used
 The project is created using angular which implements the following languages:
